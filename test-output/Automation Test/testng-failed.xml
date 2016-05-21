@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Automation Test]">
+  <test name="test1">
+    <packages>
+      <package name="testme"/>
+    </packages>
+    <classes>
+      <class name="testme.OrderApi"/>
+    </classes>
+  </test> <!-- test1 -->
+</suite> <!-- Failed suite [Automation Test] -->

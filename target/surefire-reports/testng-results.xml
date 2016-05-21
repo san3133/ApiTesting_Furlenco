@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Automation Test" duration-ms="18293" started-at="2016-05-20T11:34:29Z" finished-at="2016-05-20T11:34:48Z">
+    <groups>
+    </groups>
+    <test name="test1" duration-ms="18293" started-at="2016-05-20T11:34:29Z" finished-at="2016-05-20T11:34:48Z">
+      <class name="testme.OrderApi">
+        <test-method status="PASS" signature="test()[pri:0, instance:testme.OrderApi@2ed94a8b]" name="test" duration-ms="9461" started-at="2016-05-20T17:04:29Z" finished-at="2016-05-20T17:04:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- testme.OrderApi -->
+      <class name="testme.testing">
+        <test-method status="PASS" signature="testmepost()[pri:1, instance:testme.testing@42d3bd8b]" name="testmepost" duration-ms="1961" started-at="2016-05-20T17:04:39Z" finished-at="2016-05-20T17:04:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testmepost -->
+        <test-method status="PASS" signature="testmeget()[pri:2, instance:testme.testing@42d3bd8b]" name="testmeget" duration-ms="4200" started-at="2016-05-20T17:04:41Z" finished-at="2016-05-20T17:04:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testmeget -->
+        <test-method status="PASS" signature="testmepost1()[pri:3, instance:testme.testing@42d3bd8b]" name="testmepost1" duration-ms="2655" started-at="2016-05-20T17:04:45Z" finished-at="2016-05-20T17:04:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testmepost1 -->
+      </class> <!-- testme.testing -->
+    </test> <!-- test1 -->
+  </suite> <!-- Automation Test -->
+</testng-results>

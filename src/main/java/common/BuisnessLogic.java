@@ -38,7 +38,7 @@ public class BuisnessLogic {
 	
 				
 //String jsonBody = u.generateStringFromResource("/Users/irfannadir/Documents/workspace/RestAssured_Furlenco/src/main/java/properties/testOrders1.json");
-	String jsonBody = u.generateStringFromResource("/src/main/java/properties/testOrders1.json");
+	String jsonBody = u.generateStringFromResource(“/src/main/java/properties/testOrders1.json");
 				String content = null;
 				String js = null;
 				
@@ -57,7 +57,7 @@ public class BuisnessLogic {
 				.body("user_id", equalTo(54321)).extract().response();
 		int id = res.path("id");
 				
-		///next phas of get
+		///next phase of get
 		
 		given()
 		.accept(ContentType.JSON)

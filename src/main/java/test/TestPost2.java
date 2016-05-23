@@ -23,8 +23,11 @@ public class TestPost2 {
 	
 	public void post() throws IOException {
 	   
-		String jsonBody = u.generateStringFromResource("/Users/irfannadir/Documents/workspace/RestAssured_Furlenco/src/main/java/properties/generated.json");
-		String content = null;
+		//String jsonBody = u.generateStringFromResource("/Users/irfannadir/Documents/workspace/RestAssured_Furlenco/src/main/java/properties/generated.json");
+
+
+String jsonBody = u.generateStringFromResource("/home/travis/build/san3133/ApiTesting_Furlenco/src/main/java/properties/generated.json");		
+String content = null;
 
 		
 

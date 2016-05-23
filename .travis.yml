@@ -1,2 +1,6 @@
 language: java
 script: mvn test
+notifications:
+  email:
+    - kavya1209@gmail.com
+    - nadir3133@gmail.com

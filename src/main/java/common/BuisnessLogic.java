@@ -38,7 +38,12 @@ public class BuisnessLogic {
 	
 				
 //String jsonBody = u.generateStringFromResource("/Users/irfannadir/Documents/workspace/RestAssured_Furlenco/src/main/java/properties/testOrders1.json");
-	String jsonBody = u.generateStringFromResource("/home/travis/build/san3133/ApiTesting_Furlenco/src/main/java/properties/testOrders1.json");
+	//String jsonBody = u.generateStringFromResource("/home/travis/build/san3133/ApiTesting_Furlenco/src/main/java/properties/testOrders1.json");
+File basepath = new File(System.getProperty("user.dir"));
+
+		
+		String jsonBody =  u.generateStringFromResource(basepath +"/src/main/java/properties/testOrders1.json");
+
 
 
 				String content = null;
